@@ -123,7 +123,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "{{basePath}}/healthcheck",
+					"host": [
+						"{{basePath}}"
+					],
+					"path": [
+						"healthcheck"
+					]
 				}
 			},
 			"response": []
